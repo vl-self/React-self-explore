@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.HeaderWrapper {
+  @apply w-full h-30;
+}
+
+.ContentWrapper {
+  @apply w-full grow flex flex-row;
+}
+
+.FooterWrapper {
+  @apply w-full h-30;
+}
+
+.HeroLeft {
+  @apply bg-[url("./assets/images/hero-img.png")] w-full h-full bg-cover bg-center bg-no-repeat flex-1/2;
+}
+
+.HeroRight {
+  @apply flex-1/2 content-center;
+}
+
+.btnCls {
+  @apply rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-50;
+}
