@@ -25,7 +25,7 @@ import logo from "../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <header className="px-25 h-[85px] bg-white text-black text-lg">
+    <header className="layout-px-val h-[85px] bg-white text-black text-lg">
       <div className="grid grid-cols-2 h-full w-full">
         <div className="flex items-center">
           <img src={logo} alt="learnapp" className="w-auto"></img>

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white px-30 py-10">
+    <footer className="bg-white layout-px-val py-10">
       <div className="grid grid-cols-5 gap-x-8 pb-10 border-b-1 border-gray-200">
-        <div className="footer-widget col-span-2">
+        <div className="col-span-2">
           <a href="">
             <img src="../src/assets/images/logo.svg"></img>
           </a>
