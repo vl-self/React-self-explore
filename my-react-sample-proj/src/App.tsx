@@ -1,13 +1,17 @@
 import "./App.css";
-import Layout from "./Layout";
+import Contact from "./components/Contact";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <div>
-        <Layout></Layout>
-      </div>
-    </>
+    <div className="h-full text-[#283747] bg-[#f0f0f5]">
+      <Header></Header>
+      <Content></Content>
+      <Contact></Contact>
+      <Footer></Footer>
+    </div>
   );
 }
 
